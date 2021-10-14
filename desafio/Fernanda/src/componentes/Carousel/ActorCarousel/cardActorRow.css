@@ -1,0 +1,63 @@
+.actorRow { 
+    border-radius: 1px;
+    opacity: 0.7; 
+    overflow: hidden
+}
+
+.actorRow--list {
+    transition: all ease 0.5s;
+}
+
+/* everything that passes the screen horizontally will be cut off */
+.actorRow--listarea {
+    padding-left: 25px;
+}
+
+.actorRow--item {
+    display: inline-block;
+    width: 150px;
+    /*cursor: pointer;*/
+    
+}
+
+.actorRow--item img {
+    width: 100%;
+    transform: scale(0.9); 
+   /* transition: all ease 0.2s;  */
+}
+
+/*.actorRow--item img:hover {
+    transform: scale(1);
+}*/
+
+.card-body{
+    height: 150px;
+}
+
+.actorRow--left,
+.actorRow--right{
+    position: absolute;
+    height: 45%;
+    background-color: rgba(17, 17, 16, 0.6); 
+    z-index: 99;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+    cursor: pointer;
+    opacity: 0;
+    transition: all ease 0.5s;
+}
+
+.actorRow--left{
+    left: 0;
+}
+
+.actorRow--right{
+    right: 0;
+}
+
+.actorRow--listarea:hover .actorRow--left,
+.actorRow--listarea:hover .actorRow--right {
+    opacity: 1;
+}

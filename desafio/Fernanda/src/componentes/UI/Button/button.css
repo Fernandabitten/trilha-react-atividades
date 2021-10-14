@@ -1,0 +1,80 @@
+ .ui-button{
+    background-color: unset;
+    border-radius: 6px;
+    text-decoration: none;   
+    white-space: nowrap;
+    vertical-align: middle;
+    cursor: pointer;
+    border: 1px solid transparent;
+    font-size: 1rem;
+    width: 100%;
+    display: inherit;
+    align-items: inherit;
+    justify-content: inherit; 
+    padding: 4px 5px;
+ }
+
+ .ui-button:hover {
+    background-color: #D3840B;
+}
+
+.ui-button--bordered-orange{
+    color: #fff;
+    width: 90%;
+    font-weight: bold;
+    font-size: 17px;
+    background-color: #D3840B;
+    opacity: 1;
+}
+
+.ui-button--contained-blue{
+    color: #ffffff;
+    background-color: #290bd3;
+    border: 1px solid #D3840B;
+    margin: 15px;
+}
+
+.ui-button--contained-danger{
+    color: #fff;
+    background-color: #dc3545;
+    border-color: #dc3545;
+    margin: 15px;
+}
+
+.ui-button--contained-danger:hover {
+    background-color: #f30920;
+}
+
+.ui-button--contained-lixo{
+    color: #fff;
+    background-color: #dc3545;
+    border-color: #dc3545;
+    background-image: url('./img/lixo.png');    
+}
+
+.ui-button--contained-lixo:hover{
+    background-color: #f30920;
+}
+
+.ui-button--contained-add{
+    color: #fff;
+    background-color: #3498db;
+    border: 1px solid #3498db;
+    width: 150px;  
+}
+
+.ui-button--contained-checkout{
+    color: #fff;
+    background-color: #986411;
+    border-color: #986411;
+    transition: all 0.25s linear;
+    width: 100%;
+    height: 50px;
+    margin-top: 4%;
+    font-size: 30px;
+}
+
+.ui-button--contained-checkout:hover{
+    background-color: #f58551;
+    border-color: #f58551;
+}
